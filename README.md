@@ -25,8 +25,9 @@ response:
     “Str”
 ]
 ```
-Task: Подменить url в Charles чтобы в запросе ушло имя которые вы вписали в Postman, а вернулось то, которое вы подставили в Charles.
-Сделать и в Rewrite, и в BreakPoint
+### Task: 
+Substitute the url in Charles so that the name you put in Postman goes away in the request and the name you put in Charles is returned.
+Do it in both Rewrite and BreakPoint
 
 ### Solution
 #### BreakPoints
@@ -74,8 +75,9 @@ response:
           }
 }
 ```
-Task: Подменить body в Charles так чтобы в запросе ушла salary которую вы вписали в Postman, а в u_salary_1_5_year цифра вернулась меньше оригинальной из запроса.
-Сделать и в Rewrite, и в BreakPoint.
+### Task: 
+Substitute body in Charles so that in the query the salary you entered in Postman goes away, and in u_salary_1_5_year the number returned is less than the original one from the query.
+Do it in both Rewrite and BreakPoint.
 ### Solution
 #### BreakPoints
 Use this URL in Charles Breakpoints settings `http://162.55.220.72:5006/user_info_3` ;
@@ -111,7 +113,8 @@ response:
 }
 ```
 
-Task: Подменить параметры запроса в Charles так, чтобы в Postman пришел ответ где другое name, daily_food > weight из запроса, а daily_sleep < weight из запроса. Сделать и в Rewrite, и в BreakPoint.
+### Task: 
+Substitute query parameters in Charles so that Postman receives a response with an another name, daily_food > weight from the query, and daily_sleep < weight from the query. Do it in both Rewrite and BreakPoint.
 ### Solution
 #### BreakPoints
 Use this URL in Charles Breakpoints settings `http://162.55.220.72:5006/object_info_1?name=Olya&age=29&weight=63` ;
@@ -167,9 +170,10 @@ response:
            }
 }
 ```
-Task: Сделать и в Rewrite, и в BreakPoint.
-- Сделать через Charles так, чтобы сервер вернул 500 код.
-- Сделать через Charles так, чтобы сервер вернул 405 код.
+### Task: 
+Do it in both Rewrite and BreakPoint.
+- Use Charles to make the server return a 500 code.
+- Use Charles to make the server return a 405 code.
 ### Solution
 #### BreakPoints
 Use this URL in Charles Breakpoints settings `http://162.55.220.72:5006/object_info_3?name=Olya&age=29&salary=500` ;
@@ -205,13 +209,12 @@ response:
  'salary': [salary, str(salary * 2), str(salary * 3)]
 }
 ```
-Task: Сделать и в Rewrite, и в BreakPoint
+### Task: 
+Do it in both Rewrite and BreakPoint.
 
-1)Сделать через Charles так, чтобы сервер вернул 405 ошибку.
- 
-2)Подменить salary в request
- 
-3)Подменить (salary * 2) в response
+1) Use Charles to make the server return a 405 code.
+2) Substitute salary in request
+3) Substitute (salary * 2) in response
  
 ### Solution
 #### BreakPoints
@@ -219,17 +222,17 @@ Use this URL in Charles Breakpoints settings `http://162.55.220.72:5006/object_i
 
 Send the request in Postman ;
 
-1)Сделать через Charles так, чтобы сервер вернул 405 ошибку.
+1) Use Charles to make the server return a 405 code.
    
 In `BreakPoints` change request URL in `Edit request` substitute METHOD from `GET` to `POST` ;
 
 Or you can change response Headers in `Edit response` from `200` to `500`, than from `200` to `405`
 
-2)Подменить salary в request
+2) Substitute salary in request
 
 In `BreakPoints` change request URL in `Edit request` substitute `sarary` from `500` to `100` ;
 
-3)Подменить (salary * 2) в response
+3) Substitute (salary * 2) in response
 
 In `BreakPoints` change response text in `Edit response` substitute `(salary * 2)` from `"1000"` to `3` ;
 
@@ -239,15 +242,15 @@ In Charles Rewrite settings use location `http://162.55.220.72:5006/object_info_
 
    In Rewrite Rule select 
    
-1)Сделать через Charles так, чтобы сервер вернул 405 ошибку.
+1) Use Charles to make the server return a 405 code.
 
  - `Type: Response status` => `Match: Value: 200 OK` => `Replace: Value: 405 OK` ,
    
-2)Подменить salary в request
+2) Substitute salary in request
 
  - `Type: Modify query param` => `Match: name: salary ; Value: 500` => `Replace: name: salary ; Value: 100` ,
 
-3)Подменить (salary * 2) в response
+3) Substitute (salary * 2) in response
 
  - `Type: Body , Response` => `Match: Value: 200` - (salary * 2) => `Replace: Value: 3`
 
@@ -281,11 +284,12 @@ response:
 }
 ```
 
-Task: Сделать и в Rewrite, и в BreakPoint 
+### Task:
+ Do it in both Rewrite and BreakPoint. 
 
- ⁃ Сделать через Charles так, чтобы в Postman вернулся ответ, в котором qa_salary_after_1.5_year переименовано в qa_salary_after_1.5_month
+ ⁃ Make Charles return a response to Postman in which qa_salary_after_1.5_year is renamed to qa_salary_after_1.5_month
  
- ⁃ Сделать так чтобы qa_salary_after_3.5_years было меньше qa_salary_after_12_months в response
+ ⁃ Make qa_salary_after_3.5_years be less than qa_salary_after_12_months in the response
 
 ### Solution
 #### BreakPoints
