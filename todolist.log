@@ -1,0 +1,137 @@
+09-25 13:26:18.502   487   528 V BackupManagerService: [UserID:0] restoreAtInstall pkg=com.android.todolist token=2 restoreSet=0
+09-25 13:26:18.504   487   528 I AppsFilter: interaction: PackageSetting{70599a5 com.qrolic.reminderapp/10155} -> PackageSetting{cd0e17a com.android.todolist/10154} BLOCKED
+09-25 13:26:18.560  1313  1313 I MediaProvider: Invalidating LocalCallingIdentity cache for package com.android.todolist. Reason: package android.intent.action.PACKAGE_ADDED
+09-25 13:26:18.571   487   511 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.google.android.packageinstaller/com.android.packageinstaller.PackageInstalledReceiver
+09-25 13:26:18.571   487   511 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.android.vending/com.google.android.finsky.packagemonitor.impl.PackageMonitorReceiverImpl$RegisteredReceiver
+09-25 13:26:18.571   487   511 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.android.vending/com.google.android.finsky.packagemonitor.backgroundimpl.BackgroundPackageMonitorReceiverImpl$RegisteredReceiver
+09-25 13:26:18.572   487   511 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.google.android.gms/.games.chimera.GamesSystemBroadcastReceiverProxy
+09-25 13:26:18.572   487   511 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.google.android.gms/.gass.chimera.PackageChangeBroadcastReceiver
+09-25 13:26:18.572   487   511 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+09-25 13:26:18.572   487   511 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.google.android.ims/.receivers.RcsAutoStartReceiver
+09-25 13:26:18.600   632   632 D AvrcpMediaPlayerList: Name of package changed: com.android.todolist
+09-25 13:26:18.687  6357  6463 I Finsky  : [544] jrn.a(53): AIM: AppInfoManager-Perf > OnDeviceAppInfo > cacheHitCount=0, cacheMissCount=1. Missed  in cache (limit 10) : [com.android.todolist]
+09-25 13:26:18.853  6357  6357 I Finsky  : [2] jpq.f(9): AIM: AppInfoCacheUpdater -> invalidating apps: [com.android.todolist]
+09-25 13:26:18.856  6357  6470 I Finsky  : [551] jrn.a(53): AIM: AppInfoManager-Perf > OnDeviceAppInfo > cacheHitCount=0, cacheMissCount=1. Missed  in cache (limit 10) : [com.android.todolist]
+09-25 13:26:18.867  6357  7378 I Finsky  : [690] keq.a(433): Asset module storage cleared for package com.android.todolist.
+09-25 13:26:18.994  6808  7390 W GCM     : Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+09-25 13:26:19.008  6808  7390 W GCM     : Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+09-25 14:02:29.991   487  1371 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.todolist/.MainActivity bnds=[640,1176][841,1480]} from uid 10136
+09-25 14:02:30.436   487   512 I ActivityManager: Start proc 7816:com.android.todolist/u0a154 for pre-top-activity {com.android.todolist/com.android.todolist.MainActivity}
+09-25 14:02:32.301   487   510 D ArtManagerInternalImpl: /data/misc/iorapd/com.android.todolist/1/com.android.todolist.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+09-25 14:02:32.302   487   510 I ActivityTaskManager: Displayed com.android.todolist/.MainActivity: +2s308ms
+09-25 14:02:44.000   487  2174 W NotificationService: Toast already killed. pkg=com.android.todolist token=android.os.BinderProxy@a7f52fa
+09-25 14:02:45.733  7816  7816 E AndroidRuntime: Process: com.android.todolist, PID: 7816
+09-25 14:02:45.733  7816  7816 E AndroidRuntime: 	at com.android.todolist.MainActivity.ordenarAZ(MainActivity.kt:196)
+09-25 14:02:45.733  7816  7816 E AndroidRuntime: 	at com.android.todolist.MainActivity.onNavigationItemSelected(MainActivity.kt:86)
+09-25 14:02:45.740   487  2174 W ActivityTaskManager:   Force finishing activity com.android.todolist/.MainActivity
+09-25 14:02:45.906   487   564 W InputDispatcher: channel '53d36f5 com.android.todolist/com.android.todolist.MainActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+09-25 14:02:45.906   487   564 E InputDispatcher: channel '53d36f5 com.android.todolist/com.android.todolist.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+09-25 14:02:45.961   487  1384 I WindowManager: WIN DEATH: Window{53d36f5 u0 com.android.todolist/com.android.todolist.MainActivity}
+09-25 14:02:45.961   487  1384 W InputDispatcher: Attempted to unregister already unregistered input channel '53d36f5 com.android.todolist/com.android.todolist.MainActivity (server)'
+09-25 14:02:45.979   487  1384 I ActivityManager: Process com.android.todolist (pid 7816) has died: prcp TOP 
+09-25 14:02:45.997   487  1398 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.todolist/.MainActivity bnds=[640,1176][841,1480]} from uid 10136
+09-25 14:02:46.270   487   505 W ActivityTaskManager: Activity top resumed state loss timeout for ActivityRecord{fcb3f21 u0 com.android.todolist/.MainActivity t-1 f}}
+09-25 14:02:46.454   487   512 I ActivityManager: Start proc 7846:com.android.todolist/u0a154 for pre-top-activity {com.android.todolist/com.android.todolist.MainActivity}
+09-25 14:02:49.008   487   510 D ArtManagerInternalImpl: /data/misc/iorapd/com.android.todolist/1/com.android.todolist.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+09-25 14:02:49.011   487   510 I ActivityTaskManager: Displayed com.android.todolist/.MainActivity: +3s9ms
+09-25 14:02:59.330  1885  1885 I AndroidIME: AbstractIme.onActivate():84 LatinIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Enable : Suggestion = Show : AutoCorrection = Enable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+09-25 14:03:01.869  6808  6854 W yci     : Infinite Data has no result for com.android.todolist [CONTEXT service_id=177 ]
+09-25 14:03:02.150  6808  6860 W yci     : Infinite Data has no result for com.android.todolist [CONTEXT service_id=177 ]
+09-25 14:03:04.759   487   564 D InputDispatcher: Waiting to send key to Window{3359eb1 u0 com.android.todolist/com.android.todolist.MainActivity} because there are unprocessed events that may cause focus to change
+09-25 14:03:04.918   487   564 D InputDispatcher: Waiting to send key to Window{3359eb1 u0 com.android.todolist/com.android.todolist.MainActivity} because there are unprocessed events that may cause focus to change
+09-25 14:03:05.304   487   564 D InputDispatcher: Waiting to send key to Window{3359eb1 u0 com.android.todolist/com.android.todolist.MainActivity} because there are unprocessed events that may cause focus to change
+09-25 14:03:05.433   487   564 D InputDispatcher: Waiting to send key to Window{3359eb1 u0 com.android.todolist/com.android.todolist.MainActivity} because there are unprocessed events that may cause focus to change
+09-25 14:03:06.985   487   564 D InputDispatcher: Waiting to send key to Window{3359eb1 u0 com.android.todolist/com.android.todolist.MainActivity} because there are unprocessed events that may cause focus to change
+09-25 14:03:07.993   487   564 D InputDispatcher: Waiting to send key to Window{3359eb1 u0 com.android.todolist/com.android.todolist.MainActivity} because there are unprocessed events that may cause focus to change
+09-25 14:03:08.319   487   564 D InputDispatcher: Waiting to send key to Window{3359eb1 u0 com.android.todolist/com.android.todolist.MainActivity} because there are unprocessed events that may cause focus to change
+09-25 14:03:08.529   487   564 D InputDispatcher: Waiting to send key to Window{3359eb1 u0 com.android.todolist/com.android.todolist.MainActivity} because there are unprocessed events that may cause focus to change
+09-25 14:03:08.917   487   564 D InputDispatcher: Waiting to send key to Window{3359eb1 u0 com.android.todolist/com.android.todolist.MainActivity} because there are unprocessed events that may cause focus to change
+09-25 14:03:22.042   487  2174 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10154
+09-25 14:03:23.036   487   510 I ActivityTaskManager: Displayed com.android.todolist/.ListActivity: +888ms
+09-25 14:03:24.323   487  1374 W NotificationService: Toast already killed. pkg=com.android.todolist token=android.os.BinderProxy@9e43b6f
+09-25 14:03:32.708   487  1094 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10154
+09-25 14:03:33.433   487   510 I ActivityTaskManager: Displayed com.android.todolist/.MainActivity: +723ms
+09-25 14:03:36.535   487  2177 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10154
+09-25 14:03:37.014   487   510 I ActivityTaskManager: Displayed com.android.todolist/.ListActivity: +477ms
+09-25 14:03:38.795   487  2177 W NotificationService: Toast already killed. pkg=com.android.todolist token=android.os.BinderProxy@efcd270
+09-25 14:03:45.750  1885  1885 I AndroidIME: AbstractIme.onActivate():84 LatinIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Enable : Suggestion = Show : AutoCorrection = Enable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+09-25 14:03:45.878  1885  1885 I ConversationToQueryExtension: ConversationToQueryExtension.isEnabledForHostApp():252 Conv2Query not enabled due to current app [com.android.todolist] not in whitelist
+09-25 14:03:46.643  6808  6860 W yci     : Infinite Data has no result for com.android.todolist [CONTEXT service_id=177 ]
+09-25 14:03:46.648  6808  6854 W yci     : Infinite Data has no result for com.android.todolist [CONTEXT service_id=177 ]
+09-25 14:03:48.598   487   564 D InputDispatcher: Waiting to send key to Window{45bd93c u0 com.android.todolist/com.android.todolist.ListActivity} because there are unprocessed events that may cause focus to change
+09-25 14:03:48.727   487   564 D InputDispatcher: Waiting to send key to Window{45bd93c u0 com.android.todolist/com.android.todolist.ListActivity} because there are unprocessed events that may cause focus to change
+09-25 14:03:48.991   487   564 D InputDispatcher: Waiting to send key to Window{45bd93c u0 com.android.todolist/com.android.todolist.ListActivity} because there are unprocessed events that may cause focus to change
+09-25 14:03:51.010   487   564 D InputDispatcher: Waiting to send key to Window{45bd93c u0 com.android.todolist/com.android.todolist.ListActivity} because there are unprocessed events that may cause focus to change
+09-25 14:03:51.127   487   564 D InputDispatcher: Waiting to send key to Window{45bd93c u0 com.android.todolist/com.android.todolist.ListActivity} because there are unprocessed events that may cause focus to change
+09-25 14:03:52.401  1885  1885 I AndroidIME: AbstractIme.onActivate():84 PasswordIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Disable : Suggestion = Show : AutoCorrection = Disable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+09-25 14:03:52.506  1885  1885 I ConversationToQueryExtension: ConversationToQueryExtension.isEnabledForHostApp():252 Conv2Query not enabled due to current app [com.android.todolist] not in whitelist
+09-25 14:04:06.558   487  2177 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10154
+09-25 14:04:07.474   487   510 I ActivityTaskManager: Displayed com.android.todolist/.MainActivity: +894ms
+09-25 14:04:10.386   487  2177 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10154
+09-25 14:04:11.189   487   510 I ActivityTaskManager: Displayed com.android.todolist/.ListActivity: +779ms
+09-25 14:04:12.427   487  1094 W NotificationService: Toast already killed. pkg=com.android.todolist token=android.os.BinderProxy@71f8131
+09-25 14:04:17.591   487  1384 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10154
+09-25 14:04:18.447   487   510 I ActivityTaskManager: Displayed com.android.todolist/.MainActivity: +830ms
+09-25 14:04:33.303   487  2177 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.About} from uid 10154
+09-25 14:04:34.030   487   510 I ActivityTaskManager: Displayed com.android.todolist/.About: +711ms
+09-25 14:16:31.741   487  2177 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.todolist/.MainActivity bnds=[640,1176][841,1480]} from uid 10136
+09-25 14:16:32.854   487   510 D ArtManagerInternalImpl: /data/misc/iorapd/com.android.todolist/1/com.android.todolist.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+09-25 14:38:55.424   487   541 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.todolist/.MainActivity bnds=[640,1176][841,1480]} from uid 10136
+09-25 14:38:56.558   487   510 D ArtManagerInternalImpl: /data/misc/iorapd/com.android.todolist/1/com.android.todolist.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+09-25 14:39:08.868   487  1398 W NotificationService: Toast already killed. pkg=com.android.todolist token=android.os.BinderProxy@21e849c
+09-25 14:39:20.922   487  1371 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.About} from uid 10154
+09-25 14:39:21.664   487   510 I ActivityTaskManager: Displayed com.android.todolist/.About: +742ms
+09-25 14:39:32.054   487  1388 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.Info} from uid 10154
+09-25 14:39:32.790   487   510 I ActivityTaskManager: Displayed com.android.todolist/.Info: +743ms
+09-25 14:39:52.448   487  2183 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10154
+09-25 14:39:53.238   487   510 I ActivityTaskManager: Displayed com.android.todolist/.ListActivity: +774ms
+09-25 14:39:54.685   487  2183 W NotificationService: Toast already killed. pkg=com.android.todolist token=android.os.BinderProxy@a437be5
+09-25 14:40:02.924   487   541 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10154
+09-25 14:40:03.461   487   510 I ActivityTaskManager: Displayed com.android.todolist/.MainActivity: +526ms
+09-25 14:46:46.651  1885  1885 I AndroidIME: AbstractIme.onActivate():84 LatinIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Enable : Suggestion = Show : AutoCorrection = Enable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+09-25 14:46:46.873  1885  1885 I ConversationToQueryExtension: ConversationToQueryExtension.isEnabledForHostApp():252 Conv2Query not enabled due to current app [com.android.todolist] not in whitelist
+09-25 14:46:47.942   487   564 D InputDispatcher: Waiting to send key to Window{ae175f7 u0 com.android.todolist/com.android.todolist.MainActivity} because there are unprocessed events that may cause focus to change
+09-25 14:46:48.483   487   564 W InputDispatcher: Dispatching key to Window{ae175f7 u0 com.android.todolist/com.android.todolist.MainActivity} even though there are other unprocessed events
+09-25 14:46:48.483   487   564 D InputDispatcher: Waiting to send key to Window{ae175f7 u0 com.android.todolist/com.android.todolist.MainActivity} because there are unprocessed events that may cause focus to change
+09-25 14:46:48.898  6808  7935 W yci     : Infinite Data has no result for com.android.todolist [CONTEXT service_id=177 ]
+09-25 14:46:48.915   487   564 D InputDispatcher: Waiting to send key to Window{ae175f7 u0 com.android.todolist/com.android.todolist.MainActivity} because there are unprocessed events that may cause focus to change
+09-25 14:46:48.982  6808  6860 W yci     : Infinite Data has no result for com.android.todolist [CONTEXT service_id=177 ]
+09-25 14:46:49.100   487   564 D InputDispatcher: Waiting to send key to Window{ae175f7 u0 com.android.todolist/com.android.todolist.MainActivity} because there are unprocessed events that may cause focus to change
+09-25 14:46:49.102   487   564 D InputDispatcher: Waiting to send key to Window{ae175f7 u0 com.android.todolist/com.android.todolist.MainActivity} because there are unprocessed events that may cause focus to change
+09-25 14:46:49.237   487   564 D InputDispatcher: Waiting to send key to Window{ae175f7 u0 com.android.todolist/com.android.todolist.MainActivity} because there are unprocessed events that may cause focus to change
+09-25 14:46:49.245   487   564 D InputDispatcher: Waiting to send key to Window{ae175f7 u0 com.android.todolist/com.android.todolist.MainActivity} because there are unprocessed events that may cause focus to change
+09-25 14:46:49.749   487   564 W InputDispatcher: Dispatching key to Window{ae175f7 u0 com.android.todolist/com.android.todolist.MainActivity} even though there are other unprocessed events
+09-25 14:46:52.985   487   564 D InputDispatcher: Waiting to send key to Window{ae175f7 u0 com.android.todolist/com.android.todolist.MainActivity} because there are unprocessed events that may cause focus to change
+09-25 14:46:53.169   487   564 D InputDispatcher: Waiting to send key to Window{ae175f7 u0 com.android.todolist/com.android.todolist.MainActivity} because there are unprocessed events that may cause focus to change
+09-25 14:46:53.492   487   564 D InputDispatcher: Waiting to send key to Window{ae175f7 u0 com.android.todolist/com.android.todolist.MainActivity} because there are unprocessed events that may cause focus to change
+09-25 14:46:54.070   487   564 D InputDispatcher: Waiting to send key to Window{ae175f7 u0 com.android.todolist/com.android.todolist.MainActivity} because there are unprocessed events that may cause focus to change
+09-25 14:46:58.692   487  2177 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10154
+09-25 14:46:59.334   487   510 I ActivityTaskManager: Displayed com.android.todolist/.ListActivity: +640ms
+09-25 14:47:00.950   487  1371 W NotificationService: Toast already killed. pkg=com.android.todolist token=android.os.BinderProxy@2d3c88b
+09-25 14:47:05.641   487  1094 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10154
+09-25 14:47:06.163   487   510 I ActivityTaskManager: Displayed com.android.todolist/.MainActivity: +514ms
+09-25 14:48:01.382  1885  1885 I AndroidIME: AbstractIme.onActivate():84 LatinIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Enable : Suggestion = Show : AutoCorrection = Enable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+09-25 14:48:01.499  1885  1885 I ConversationToQueryExtension: ConversationToQueryExtension.isEnabledForHostApp():252 Conv2Query not enabled due to current app [com.android.todolist] not in whitelist
+09-25 14:48:01.989   487   564 D InputDispatcher: Waiting to send key to Window{3c64e27 u0 com.android.todolist/com.android.todolist.MainActivity} because there are unprocessed events that may cause focus to change
+09-25 14:48:02.446  6808  6854 W yci     : Infinite Data has no result for com.android.todolist [CONTEXT service_id=177 ]
+09-25 14:48:02.507   487   564 W InputDispatcher: Dispatching key to Window{3c64e27 u0 com.android.todolist/com.android.todolist.MainActivity} even though there are other unprocessed events
+09-25 14:48:02.507   487   564 D InputDispatcher: Waiting to send key to Window{3c64e27 u0 com.android.todolist/com.android.todolist.MainActivity} because there are unprocessed events that may cause focus to change
+09-25 14:48:02.447  6808  7907 W yci     : Infinite Data has no result for com.android.todolist [CONTEXT service_id=177 ]
+09-25 14:48:02.786  6808  9280 W yci     : Infinite Data has no result for com.android.todolist [CONTEXT service_id=177 ]
+09-25 14:48:02.789  6808  9280 W yci     : Infinite Data has no result for com.android.todolist [CONTEXT service_id=177 ]
+09-25 14:48:02.972   487   564 D InputDispatcher: Waiting to send key to Window{3c64e27 u0 com.android.todolist/com.android.todolist.MainActivity} because there are unprocessed events that may cause focus to change
+09-25 14:48:07.267   487   564 D InputDispatcher: Waiting to send key to Window{3c64e27 u0 com.android.todolist/com.android.todolist.MainActivity} because there are unprocessed events that may cause focus to change
+09-25 14:48:07.922   487   564 D InputDispatcher: Waiting to send key to Window{3c64e27 u0 com.android.todolist/com.android.todolist.MainActivity} because there are unprocessed events that may cause focus to change
+09-25 14:48:08.162   487   564 D InputDispatcher: Waiting to send key to Window{3c64e27 u0 com.android.todolist/com.android.todolist.MainActivity} because there are unprocessed events that may cause focus to change
+09-25 14:48:18.137   487   564 D InputDispatcher: Waiting to send key to Window{4724d83 u0 com.android.todolist/com.android.todolist.MainActivity} because there are unprocessed events that may cause focus to change
+09-25 14:48:18.196  6808  7907 W yci     : Infinite Data has no result for com.android.todolist [CONTEXT service_id=177 ]
+09-25 14:48:18.273  6808  9312 W yci     : Infinite Data has no result for com.android.todolist [CONTEXT service_id=177 ]
+09-25 14:48:18.569   487   564 D InputDispatcher: Waiting to send key to Window{4724d83 u0 com.android.todolist/com.android.todolist.MainActivity} because there are unprocessed events that may cause focus to change
+09-25 14:48:18.581  1885  1885 I AndroidIME: AbstractIme.onActivate():84 LatinIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Enable : Suggestion = Show : AutoCorrection = Enable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+09-25 14:48:18.691  1885  1885 I ConversationToQueryExtension: ConversationToQueryExtension.isEnabledForHostApp():252 Conv2Query not enabled due to current app [com.android.todolist] not in whitelist
+09-25 14:48:19.116   487   564 D InputDispatcher: Waiting to send key to Window{4724d83 u0 com.android.todolist/com.android.todolist.MainActivity} because there are unprocessed events that may cause focus to change
+09-25 14:48:19.528   487   564 D InputDispatcher: Waiting to send key to Window{4724d83 u0 com.android.todolist/com.android.todolist.MainActivity} because there are unprocessed events that may cause focus to change
+09-25 14:48:20.081   487   564 W InputDispatcher: Dispatching key to Window{4724d83 u0 com.android.todolist/com.android.todolist.MainActivity} even though there are other unprocessed events
+09-25 14:48:20.081   487   564 D InputDispatcher: Waiting to send key to Window{4724d83 u0 com.android.todolist/com.android.todolist.MainActivity} because there are unprocessed events that may cause focus to change
+09-25 14:48:20.410   487   564 D InputDispatcher: Waiting to send key to Window{4724d83 u0 com.android.todolist/com.android.todolist.MainActivity} because there are unprocessed events that may cause focus to change
+09-25 14:48:
