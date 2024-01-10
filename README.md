@@ -1,4 +1,4 @@
-# ADB homework tasks
+# ADB tasks
 
  1. Display the connected device in the console.
  
